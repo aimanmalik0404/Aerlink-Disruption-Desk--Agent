@@ -1,0 +1,48 @@
+{
+  "case_id": "case-10",
+  "booking_ref": "AER-5C9X3T",
+  "overall_status": "RESOLVED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "name": "Greg Whitmore",
+      "outcome": "REBOOKED",
+      "amount_gbp": 17.67,
+      "detail": "Rebooked onto flight AK440 from LHR to GVA on 10 August.",
+      "reasoning": "Flight AK229 was cancelled, and rebooking was made onto the earliest flight to Geneva per passenger's request."
+    },
+    {
+      "passenger_id": "P1",
+      "name": "Greg Whitmore",
+      "outcome": "VOUCHER_ISSUED",
+      "amount_gbp": 178.0,
+      "detail": "A hotel voucher for LHR issued due to delay caused by flight cancellation.",
+      "reasoning": "Duty of care triggered due to cancellation of flight AK229."
+    },
+    {
+      "passenger_id": "P1",
+      "name": "Greg Whitmore",
+      "outcome": "COMPENSATED",
+      "amount_gbp": 0.0,
+      "detail": "No compensation owed due to the circumstances of the flight cancellation.",
+      "reasoning": "Compensation not owed as rebooking was successfully completed."
+    }
+  ],
+  "duty_of_care_actions": [
+    "GBP 2 goodwill paid in lieu of missing GBP 2 from hotel voucher due to allocation."
+  ],
+  "sources_consulted": [
+    "get_booking: to retrieve the booking details and understand previous communications.",
+    "search_availability: to find the earliest flight to Geneva as requested by the passenger.",
+    "create_rebooking: to rebook the passenger on the earliest available flight.",
+    "policy_search: to understand duty of care obligations.",
+    "calculate_entitlement: to assess compensation and duty of care entitlements for the booking.",
+    "issue_hotel_voucher: to provide accommodation due to flight cancellation and issue a voucher accordingly.",
+    "pay_goodwill: to address the shortfall in the hotel voucher with a goodwill payment."
+  ],
+  "uncertainties": [
+    "Compensation assessment was not straightforward since the duty of care was triggered, but did not result in calculated compensation due to rebooking."
+  ],
+  "human_follow_up": [],
+  "passenger_reply_draft": "Dear Greg,\n\nI have successfully rebooked you on flight AK440 from London Heathrow to Geneva on Monday, 10 August. Your new departure time is 09:30.\n\nAdditionally, a hotel voucher was issued for your stay in London due to the cancellation of your original flight, and a goodwill payment of GBP 2 was provided in lieu of the full entitlement. \n\nIf you have any further questions or need additional assistance, please feel free to reach out.\n\nThank you for your patience, and safe travels!\n\nBest regards,\nAerlink Customer Care"
+}

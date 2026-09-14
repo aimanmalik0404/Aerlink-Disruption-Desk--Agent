@@ -1,0 +1,40 @@
+{
+  "case_id": "case-12",
+  "booking_ref": "AER-1F6G8P",
+  "overall_status": "RESOLVED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "name": "Lucia Marquez-Ibanez",
+      "outcome": "REBOOKED",
+      "amount_gbp": 82.97,
+      "detail": "Rebooked onto AK755 from BCN to LHR on 2026-08-06.",
+      "reasoning": "Rebooking necessary due to cancellation of flight AK418."
+    },
+    {
+      "passenger_id": "P2",
+      "name": "Mateo Marquez-Ibanez",
+      "outcome": "REBOOKED",
+      "amount_gbp": 82.97,
+      "detail": "Rebooked onto AK755 from BCN to LHR on 2026-08-06.",
+      "reasoning": "Rebooking necessary due to cancellation of flight AK418."
+    }
+  ],
+  "duty_of_care_actions": [
+    "GBP 178 hotel voucher issued for one night in LHR due to flight cancellation.",
+    "GBP 30 paid for meals due to flight cancellation.",
+    "GBP 45 paid for transport due to flight cancellation."
+  ],
+  "sources_consulted": [
+    "get_booking",
+    "get_flight",
+    "search_availability",
+    "calculate_entitlement",
+    "get_hotel_allocation",
+    "issue_hotel_voucher",
+    "pay_goodwill"
+  ],
+  "uncertainties": [],
+  "human_follow_up": [],
+  "passenger_reply_draft": "Estimada Lucia,\n\nLamentamos la cancelaci\u00f3n de su vuelo AK418. Hemos reprogramado su viaje para el vuelo AK755 a Londres ma\u00f1ana, 6 de agosto, a las 18:00. Tambi\u00e9n hemos emitido un vale de hotel para la noche de hoy en Heathrow y hemos cubierto los costos de las comidas y el transporte. \n\nSi tiene m\u00e1s preguntas o necesita asistencia adicional, no dude en contactarnos.  \n\nGracias por su paciencia y comprensi\u00f3n,\n\nAtentamente,\nAerlink Customer Care."
+}

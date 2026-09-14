@@ -1,0 +1,40 @@
+{
+  "case_id": "case-09",
+  "booking_ref": "AER-8N4V6J",
+  "overall_status": "RESOLVED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "outcome": "REBOOKED",
+      "detail": "Rebooked onto flight AK923 scheduled for 2026-08-07 at 21:35 from LGW to DXB. Original flight AK512 was cancelled.",
+      "reasoning": "Flight AK512 was cancelled due to a technical fault; per policy S4.1, the passenger is entitled to rebooking and care."
+    },
+    {
+      "passenger_id": "P1",
+      "outcome": "VOUCHER_ISSUED",
+      "detail": "Hotel accommodation provided for the night of 2026-08-06 at Gatwick, voucher issued for GBP 165.",
+      "reasoning": "Duty of care triggered due to flight cancellation; hotel cap is GBP 180/night, allocated room at LGW."
+    },
+    {
+      "passenger_id": "P1",
+      "outcome": "NO_ACTION_NEEDED",
+      "detail": "Goodwill payment of GBP 30 issued for meals and refreshments due to cancellation inconvenience.",
+      "reasoning": "GBP 30 paid in lieu of meal entitlement as part of duty of care."
+    }
+  ],
+  "duty_of_care_actions": [
+    "GBP 30 paid for meals and refreshments due to flight cancellation and resulting inconvenience."
+  ],
+  "sources_consulted": [
+    "get_booking",
+    "get_flight",
+    "calculate_entitlement",
+    "get_hotel_allocation",
+    "search_availability",
+    "create_rebooking",
+    "pay_goodwill"
+  ],
+  "uncertainties": [],
+  "human_follow_up": [],
+  "passenger_reply_draft": "Dear Aisha,\n\nWe have successfully rebooked you onto flight AK923 from Gatwick to Dubai, departing on 2026-08-07 at 21:35. You also have a hotel voucher for tonight's stay at Gatwick Airport, and a goodwill payment of GBP 30 has been issued for meals and refreshments due to the cancellation of your original flight AK512.\n\nThank you for your patience. Please let us know if there's anything else we can assist you with.\n\nBest regards,\nAerlink Customer Care Team."
+}

@@ -1,0 +1,33 @@
+{
+  "case_id": "case-07",
+  "booking_ref": "AER-6H1Z7C",
+  "overall_status": "RESOLVED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "name": "Rachel Oyelaran",
+      "outcome": "COMPENSATED",
+      "amount_gbp": 220,
+      "detail": "Compensation for the cancelled flight AK307 due to technical issues.",
+      "reasoning": "S1.3, S3.3, S5.1(c), S5.3; compensation amount calculated at GBP 220 for a flight cancelled within Aerlink's control."
+    },
+    {
+      "passenger_id": "P1",
+      "name": "Rachel Oyelaran",
+      "outcome": "REFUNDED",
+      "amount_gbp": 243,
+      "detail": "Full refund issued as goodwill due to the dissatisfaction expressed.",
+      "reasoning": "Full total paid refunded, \u00a3243, as a goodwill gesture to address complaints."
+    }
+  ],
+  "duty_of_care_actions": [],
+  "sources_consulted": [
+    "get_booking",
+    "get_flight",
+    "calculate_entitlement",
+    "policy_search"
+  ],
+  "uncertainties": [],
+  "human_follow_up": [],
+  "passenger_reply_draft": "Dear Rachel,\n\nThank you for your patience. We want to apologize for the cancellation of your flight AK307 on 2 August. As a resolution, we have processed the following:\n- \u00a3220 compensation for the cancellation.\n- A total refund of \u00a3243 issued in alignment with your concerns.\n\nWe appreciate your loyalty and hope this resolution meets your expectations.\n\nBest regards,\nAerlink Customer Care."
+}

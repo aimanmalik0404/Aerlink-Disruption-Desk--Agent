@@ -1,0 +1,37 @@
+{
+  "case_id": "case-08",
+  "booking_ref": "AER-3B7Y5K",
+  "overall_status": "MIXED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "name": "Tomas Ferreira",
+      "outcome": "ESCALATED",
+      "detail": "Refund request for downgrade from Business to Economy class has been escalated for determination.",
+      "reasoning": "Refund amount for downgrade cannot be processed without further review."
+    },
+    {
+      "passenger_id": "P1",
+      "name": "Tomas Ferreira",
+      "outcome": "COMPENSATED",
+      "amount_gbp": 415,
+      "detail": "Total compensation and goodwill payment for flight cancellation and downgrade.",
+      "reasoning": "GBP 415 compensation based on flight cancellation under policy S5 and downgrade reimbursement."
+    }
+  ],
+  "duty_of_care_actions": [
+    "GBP 30 goodwill payment for duty of care failure regarding hotel accommodation for Tomas Ferreira.",
+    "GBP 180 goodwill payment for duty of care due to hotel unavailability on multiple nights for Tomas Ferreira."
+  ],
+  "sources_consulted": [
+    "get_booking for booking details and passenger information.",
+    "get_flight for the operational record of flight AK640.",
+    "calculate_entitlement for determining compensation and duty of care responsibilities."
+  ],
+  "uncertainties": [
+    "Escalated refund amount for downgrade reimbursement cannot be quantified without human intervention."
+  ],
+  "human_follow_up": [
+    "Decide refund amount related to downgrade from Business to Economy."
+  ]
+}

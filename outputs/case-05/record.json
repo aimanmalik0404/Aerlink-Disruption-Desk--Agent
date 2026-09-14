@@ -1,0 +1,34 @@
+{
+  "case_id": "case-05",
+  "booking_ref": "AER-9L5D2R",
+  "overall_status": "MIXED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "name": "Marta Kowalczyk",
+      "outcome": "NO_ACTION_NEEDED",
+      "amount_gbp": null,
+      "detail": "No compensation is payable due to extraordinary circumstances; however, a \u00a330 goodwill payment was issued for immediate expenses in lieu of hotel accommodation. The request for the hotel reimbursement of \u00a3112 has been escalated for human review due to exhausted hotel allocation.",
+      "reasoning": "Compensation not payable under S3; duty of care entitlements triggered under S4 with a goodwill payment issued for immediate expenses."
+    }
+  ],
+  "duty_of_care_actions": [
+    "GBP 30 goodwill payment issued for immediate use due to the disruption."
+  ],
+  "sources_consulted": [
+    "get_booking",
+    "get_flight",
+    "calculate_entitlement",
+    "get_hotel_allocation",
+    "policy_search",
+    "pay_goodwill",
+    "escalate_to_human"
+  ],
+  "uncertainties": [
+    "Unable to provide hotel voucher due to exhausted allocation at EDI, requiring human follow-up for hotel reimbursement request."
+  ],
+  "human_follow_up": [
+    "Authorize a way to reimburse Marta Kowalczyk for her hotel stay at Edinburgh despite the exhausted allocation, and decide on the remaining goodwill request for \u00a3112."
+  ],
+  "passenger_reply_draft": "Dear Marta,\n\nThank you for your message and for your patience while we addressed your concerns regarding flight AK808 on August 3rd. \n\nI want to let you know that compensation for your missed flight has been assessed, and since the cancellation was due to extraordinary circumstances, no compensation is owed. However, we have processed a goodwill payment of \u00a330 for your immediate expenses incurred due to the cancellation.\n\nAdditionally, I\u2019ve escalated your request for reimbursement of your hotel stay to a supervisor, as we currently cannot offer a hotel voucher due to our allocation being exhausted. They will review your request and determine the best way to address it.\n\nWe appreciate your understanding, and our team will be in touch soon regarding the next steps for your hotel reimbursement.\n\nBest regards,\nAerlink Customer Care"
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "case-03",
+  "booking_ref": "AER-9V3H5S",
+  "overall_status": "ESCALATED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "outcome": "NO_ACTION_NEEDED",
+      "detail": "No compensation due as the cause of delay was under Aerlink's control and below threshold.",
+      "reasoning": "Compensation not payable for delay under S3.3 as the cause was GROUND_HANDLING."
+    }
+  ],
+  "duty_of_care_actions": [
+    "GBP 30 goodwill paid due to late flight issues affecting passenger, voucher issued for hotel accommodation for 05 August 2026."
+  ],
+  "sources_consulted": [
+    "search_bookings for John's bookings",
+    "get_booking for AER-2X8L4D to check delays",
+    "get_booking for AER-9V3H5S to check delays",
+    "calculate_entitlement to verify compensation and duty of care",
+    "issue_hotel_voucher to secure accommodation"
+  ],
+  "uncertainties": [],
+  "human_follow_up": [
+    "Accommodation arrangements or further assistance required for passenger John Smith."
+  ]
+}

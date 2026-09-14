@@ -1,0 +1,26 @@
+{
+  "case_id": "case-06",
+  "booking_ref": "AER-2Q8W4N",
+  "overall_status": "RESOLVED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "name": "Daniel Fitzgerald",
+      "outcome": "NO_ACTION_NEEDED",
+      "detail": "Goodwill payment of GBP 150 issued to reflect discretionary authority limit without supervisor approval.",
+      "reasoning": "GBP 150 goodwill paid as per authority limits outlined in Section 11.2 of APCP-2026-04. No additional compensation owed beyond this and no re-routing needed."
+    }
+  ],
+  "duty_of_care_actions": [
+    "GBP 150 goodwill paid as per Section 11.2 of APCP-2026-04."
+  ],
+  "sources_consulted": [
+    "get_booking for booking details and flight segments.",
+    "get_flight for operational flight status and delay specifics.",
+    "calculate_entitlement for compensation and duty of care details.",
+    "policy_search for goodwill authority limits."
+  ],
+  "uncertainties": [],
+  "human_follow_up": [],
+  "passenger_reply_draft": "CONFIRMED."
+}

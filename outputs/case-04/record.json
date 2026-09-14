@@ -1,0 +1,21 @@
+{
+  "case_id": "case-04",
+  "overall_status": "ESCALATED",
+  "passenger_outcomes": [],
+  "duty_of_care_actions": [],
+  "sources_consulted": [
+    "get_booking",
+    "search_bookings",
+    "get_flight",
+    "get_disruption_feed",
+    "calculate_entitlement",
+    "escalate_to_human"
+  ],
+  "uncertainties": [
+    "No operational records or bookings found for reference BA-99201, preventing confirmation of the passengers' entitlements."
+  ],
+  "human_follow_up": [
+    "Investigate the booking reference BA-99201 and determine appropriate actions regarding compensation."
+  ],
+  "passenger_reply_draft": "Dear Mr. Lindqvist,\n\nThank you for your patience. I have escalated your case regarding the compensation for your cancelled flight. A member of our team will look into your booking and get back to you as soon as possible.\n\nBest regards,\nAerlink Customer Care Team"
+}

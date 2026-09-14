@@ -1,0 +1,113 @@
+{
+  "cases": [
+    {
+      "case_id": "case-01",
+      "status": "RESOLVED",
+      "turns_used": 13,
+      "tool_calls_made": 13,
+      "estimated_cost_usd": 0.01337355,
+      "elapsed_s": 33.26577877998352,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-02",
+      "status": "RESOLVED",
+      "turns_used": 14,
+      "tool_calls_made": 16,
+      "estimated_cost_usd": 0.0171888,
+      "elapsed_s": 27.57261037826538,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-03",
+      "status": "ESCALATED",
+      "turns_used": 9,
+      "tool_calls_made": 10,
+      "estimated_cost_usd": 0.0084726,
+      "elapsed_s": 15.357370376586914,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-04",
+      "status": "ESCALATED",
+      "turns_used": 9,
+      "tool_calls_made": 8,
+      "estimated_cost_usd": 0.0076289999999999995,
+      "elapsed_s": 12.651451587677002,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-05",
+      "status": "MIXED",
+      "turns_used": 8,
+      "tool_calls_made": 9,
+      "estimated_cost_usd": 0.0069657,
+      "elapsed_s": 13.446971893310547,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-06",
+      "status": "RESOLVED",
+      "turns_used": 7,
+      "tool_calls_made": 7,
+      "estimated_cost_usd": 0.006008100000000001,
+      "elapsed_s": 9.120993614196777,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-07",
+      "status": "RESOLVED",
+      "turns_used": 12,
+      "tool_calls_made": 11,
+      "estimated_cost_usd": 0.011764799999999999,
+      "elapsed_s": 23.17823076248169,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-08",
+      "status": "MIXED",
+      "turns_used": 20,
+      "tool_calls_made": 18,
+      "estimated_cost_usd": 0.022018350000000003,
+      "elapsed_s": 36.80337715148926,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-09",
+      "status": "RESOLVED",
+      "turns_used": 10,
+      "tool_calls_made": 10,
+      "estimated_cost_usd": 0.00982545,
+      "elapsed_s": 18.76213049888611,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-10",
+      "status": "RESOLVED",
+      "turns_used": 10,
+      "tool_calls_made": 9,
+      "estimated_cost_usd": 0.011883449999999999,
+      "elapsed_s": 18.0262451171875,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-11",
+      "status": "RESOLVED",
+      "turns_used": 15,
+      "tool_calls_made": 14,
+      "estimated_cost_usd": 0.015950699999999998,
+      "elapsed_s": 36.97880482673645,
+      "forced_escalation_reason": null
+    },
+    {
+      "case_id": "case-12",
+      "status": "RESOLVED",
+      "turns_used": 11,
+      "tool_calls_made": 12,
+      "estimated_cost_usd": 0.010791750000000001,
+      "elapsed_s": 20.518527030944824,
+      "forced_escalation_reason": null
+    }
+  ],
+  "total_estimated_cost_usd": 0.14187224999999998
+}

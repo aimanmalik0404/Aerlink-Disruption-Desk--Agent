@@ -1,0 +1,54 @@
+{
+  "case_id": "case-02",
+  "booking_ref": "AER-7T3M1B",
+  "overall_status": "RESOLVED",
+  "passenger_outcomes": [
+    {
+      "passenger_id": "P1",
+      "name": "Chidi Okonkwo",
+      "outcome": "REBOOKED",
+      "detail": "Rebooked on flight AK745 due to cancellation of original flight AK220.",
+      "reasoning": "Rebooked due to the cancellation of flight AK220."
+    },
+    {
+      "passenger_id": "P2",
+      "name": "Adaeze Okonkwo",
+      "outcome": "REBOOKED",
+      "detail": "Rebooked on flight AK745 due to cancellation of original flight AK220.",
+      "reasoning": "Rebooked due to the cancellation of flight AK220."
+    },
+    {
+      "passenger_id": "P3",
+      "name": "Emeka Okonkwo",
+      "outcome": "REBOOKED",
+      "detail": "Rebooked on flight AK745 due to cancellation of original flight AK220.",
+      "reasoning": "Rebooked due to the cancellation of flight AK220."
+    },
+    {
+      "passenger_id": "P5",
+      "name": "Tobias Achebe",
+      "outcome": "REFUNDED",
+      "amount_gbp": 1190.0,
+      "detail": "Refund issued due to cancellation and refusal to travel.",
+      "reasoning": "Requested refund due to cancellation of flight AK220."
+    },
+    {
+      "passenger_id": "P4",
+      "name": "Ngozi Okonkwo",
+      "outcome": "NO_ACTION_NEEDED",
+      "detail": "Hotel accommodation issued for the night of 2026-08-05.",
+      "reasoning": "Hotel accommodation provided due to delay caused by cancellation."
+    }
+  ],
+  "duty_of_care_actions": [
+    "GBP 30.00 goodwill payment issued for inadequate duty of care during the situation."
+  ],
+  "sources_consulted": [
+    "Booking record",
+    "Flight operational status for AK220",
+    "Passenger Care Policy for duty-of-care entitlements"
+  ],
+  "uncertainties": [],
+  "human_follow_up": [],
+  "passenger_reply_draft": "Dear Chidi, we have rebooked you, Adaeze, and Emeka on flight AK745, and Tobias has received a full refund. Ngozi has been provided with hotel accommodation for tonight. Additionally, we've issued a goodwill payment in light of the service experience during your delay. Thank you for your patience."
+}
